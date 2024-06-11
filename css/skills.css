@@ -1,0 +1,26 @@
+.skills {
+  padding: var(--padding-section) 0;
+  p {
+    font-size: 20px;
+    margin: 20px 0 50px;
+    text-align: center;
+  }
+  .details {
+    margin-top: 40px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    color: #aaa;
+    gap: 60px;
+    .skill {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      width: fit-content;
+      margin: 0 auto;
+    }
+  }
+}
+

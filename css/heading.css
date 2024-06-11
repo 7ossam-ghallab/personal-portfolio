@@ -1,0 +1,9 @@
+.heading {
+  color: var(--text-color);
+  width: fit-content;
+  margin: 0 auto;
+  background-color: var(--heading-and-image-bg);
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-weight: 500;
+}

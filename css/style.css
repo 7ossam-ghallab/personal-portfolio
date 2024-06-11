@@ -1,0 +1,35 @@
+@import url(home.css);
+@import url(heading.css);
+@import url(about-me.css);
+@import url(skills.css);
+
+:root {
+  --main-bg-color: #FFFFFF;
+  --second-bg-color: #F9FAFB;
+  --heading-and-image-bg: #E5E7EB;
+  --padding-section: 100px;
+  --text-color: #222;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--main-bg-color);
+}
+body.dark {
+  --main-bg-color: #030712;
+  --second-bg-color: #111827;
+  --heading-and-image-bg: #374151;
+  --text-color: #bbb;
+  color: var(--text-color);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
