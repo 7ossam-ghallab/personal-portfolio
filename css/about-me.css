@@ -2,27 +2,27 @@
   background-color: var(--second-bg-color);
   padding: var(--padding-section) 0;
 }
-.info {
+.about-me .info {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 150px;
 }
-.info .image {
+.about-me .info .image {
   width: 440px;
   height: 100%;
   position: relative;
   display: flex;
   justify-content: right;
 }
-.info .image img {
+.about-me .info .image img {
   width: 400px;
   border: 10px solid var(--second-bg-color);
   position: relative;
   z-index: 1;
 }
-.info .image .background::before {
+.about-me .info .image .background::before {
   content: '';
   position: absolute;
   width: 400px;
@@ -34,11 +34,11 @@
 }
 
 
-.details {
+.about-me .details {
   width: 600px;
   .title {
     font-size: 30px;
-    color: #fff;
+    color: var(--text-color);
   }
   .paragraph {
     margin: 20px 0;

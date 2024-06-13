@@ -4,16 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Personal Portfolio</title>
   </head>
   <body class="dark">
     
+
+    <!-- 
+      Start Header
+    -->
+
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>&lt;SS /&gt;</h1>
+        </div>
+        <nav>
+          <div class="bars-icon">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <ul>
+            <li><a href="#">about</a></li>
+            <li><a href="#">work</a></li>
+            <li><a href="#">testimomials</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+          <div class="icon-mode"><i class="fa-regular fa-sun"></i></div>
+          <button class="cv">download CV</button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- 
+      End Header
+    -->
+
     <!--  
       Start Home 
     -->
 
     <section class="home">
-
+      <div class="container">
+        <div class="image">
+          <img src="images/0.jpeg" alt="my-image">
+          <div class="background"></div>
+        </div>
+        <div class="details">
+          <h2>Hi, I’m Sagar 👋</h2>
+          <p class="paragraph">I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 7 years, I still love it as if it was something new.</p>
+          <div class="location-and-available">
+            <div class="location">
+              <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+              <p>Ahmedabad, India</p>
+            </div>
+            <div class="available">
+              <div class="icon"><i class="fa-solid fa-circle"></i></div>
+              <p>Available for new projects</p>
+            </div>
+          </div>
+          <div class="icons">
+            <div><i class="fa-brands fa-github"></i></div>
+            <div><i class="fa-brands fa-twitter"></i></div>
+            <div><i class="fa-brands fa-figma"></i></div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- 
@@ -186,7 +241,53 @@
       Start Experience
     -->
 
+    <section class="experience">
+      <div class="container">
+        <h3 class="heading">Experience</h3>
+        <p>Here is a quick summary of my most recent experiences:</p>
+        <div class="info">
+          <div class="card">
+            <div class="icon"><img src="images/icons/upwork.svg" alt="icon"></div>
+            <div class="details">
+              <h4>Sr. Frontend Developer</h4>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Ut pretium arcu et massa semper, id fringilla leo semper.</li>
+                <li>Sed quis justo ac magna.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              </ul>
+            </div>
+            <div class="date"><span>Nov 2021 - Present</span></div>
+          </div>
 
+          <div class="card">
+            <div class="icon"><img src="images/icons/upwork.svg" alt="icon"></div>
+            <div class="details">
+              <h4>Team Lead</h4>
+              <ul>
+                <li>Sed quis justo ac magna</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Sed quis justo ac magna.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              </ul>
+            </div>
+            <div class="date"><span>Nov 2021 - Present</span></div>
+          </div>
+
+
+          <div class="card">
+            <div class="icon"><img src="images/icons/upwork.svg" alt="icon"></div>
+            <div class="details">
+              <h4>Full Stack Developer</h4>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              </ul>
+            </div>
+            <div class="date"><span>Nov 2021 - Present</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- 
       End Experience 
@@ -196,7 +297,94 @@
       Start  Work
     -->
 
-
+    <section class="work">
+      <div class="container">
+        <h3 class="heading">Work</h3>
+        <p class="description">Some of the noteworthy projects I have built:</p>
+        <div class="cards">
+          <div class="card">
+            <div class="image"><img src="images/2.jpeg" alt="image-project"></div>
+            <div class="info">
+              <h4>Fiskil</h4>
+              <div class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</div>
+              <div class="tags">
+                <span>React</span>
+                <span>Next.js</span>
+                <span>Typescript</span>
+                <span>Nest.js</span>
+                <span>PostgreSQL</span>
+                <span>Tailwindcss</span>
+                <span>Figma</span>
+                <span>Cypress</span>
+                <span>Storybook</span>
+                <span>Git</span>
+              </div>
+              <div class="link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image"><img src="images/2.jpeg" alt=""></div>
+            <div class="info">
+              <h4>Fiskil</h4>
+              <div class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</div>
+              <div class="tags">
+                <span>React</span>
+                <span>Next.js</span>
+                <span>Typescript</span>
+                <span>Nest.js</span>
+                <span>PostgreSQL</span>
+                <span>Tailwindcss</span>
+                <span>Figma</span>
+                <span>Cypress</span>
+                <span>Storybook</span>
+                <span>Git</span>
+              </div>
+              <div class="link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image"><img src="images/2.jpeg" alt=""></div>
+            <div class="info">
+              <h4>Fiskil</h4>
+              <div class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</div>
+              <div class="tags">
+                <span>React</span>
+                <span>Next.js</span>
+                <span>Typescript</span>
+                <span>Nest.js</span>
+                <span>PostgreSQL</span>
+                <span>Tailwindcss</span>
+                <span>Figma</span>
+                <span>Cypress</span>
+                <span>Storybook</span>
+                <span>Git</span>
+              </div>
+              <div class="link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image"><img src="images/2.jpeg" alt=""></div>
+            <div class="info">
+              <h4>Fiskil</h4>
+              <div class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</div>
+              <div class="tags">
+                <span>React</span>
+                <span>Next.js</span>
+                <span>Typescript</span>
+                <span>Nest.js</span>
+                <span>PostgreSQL</span>
+                <span>Tailwindcss</span>
+                <span>Figma</span>
+                <span>Cypress</span>
+                <span>Storybook</span>
+                <span>Git</span>
+              </div>
+              <div class="link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- 
       End Work 
@@ -206,7 +394,54 @@
       Start Testimonials 
     -->
 
-
+    <section class="testimomials">
+      <div class="container">
+        <h3 class="heading">Testimonials</h3>
+        <p class="description">Nice things people have said about me:</p>
+        <div class="cards-grid">
+          <div class="card">
+            <div class="icon"><img src="images/icons/man.svg" alt="icon"></div>
+            <div class="opinion"><p>“Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.”</p></div>
+            <div class="name-job">
+              <p>John Doe</p>
+              <span>Founder - xyz.com</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon"><img src="images/icons/man.svg" alt="icon"></div>
+            <div class="opinion"><p>“Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.”</p></div>
+            <div class="name-job">
+              <p>John Doe</p>
+              <span>Founder - abc.com</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon"><img src="images/icons/man.svg" alt="icon"></div>
+            <div class="opinion"><p>“Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.”</p></div>
+            <div class="name-job">
+              <p>John Doe</p>
+              <span>Freelancer</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon"><img src="images/icons/man.svg" alt="icon"></div>
+            <div class="opinion"><p>“Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.”</p></div>
+            <div class="name-job">
+              <p>John Doe</p>
+              <span>Freelancer</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon"><img src="images/icons/man.svg" alt="icon"></div>
+            <div class="opinion"><p>“Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.”</p></div>
+            <div class="name-job">
+              <p>John Doe</p>
+              <span>Freelancer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- 
       End Testimonials 
@@ -216,7 +451,36 @@
       Start Contact + footer 
     -->
 
+    <section class="contact">
+      <div class="container">
+        <h3 class="heading">Get in touch</h3>
+        <p class="description">What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.</p>
+        <div class="phone-email">
+          <h4>
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="email">reachsagarshah@gmail.com</div>
+            <div class="copy"><i class="fa-regular fa-copy"></i></div>
+          </h4>
+          <h4>
+            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="phone">+91 8980500565</div>
+            <div class="copy"><i class="fa-regular fa-copy"></i></div>
+          </h4>
+        </div>
+        <div class="social">
+          <div>You may also find me on these platforms!</div>
+          <div class="icons">
+            <div><i class="fa-brands fa-github"></i></div>
+            <div><i class="fa-brands fa-twitter"></i></div>
+            <div><i class="fa-brands fa-figma"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <footer>
+      <p><b>&copy;</b> 2024 | <a href="#">Designed</a> and <a href="#">coded</a> with ❤️️ by <a href="#">Hossam Ghallab</a></p>
+    </footer>
 
     <!-- 
       End Contact + footer 

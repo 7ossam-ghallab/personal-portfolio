@@ -1,0 +1,43 @@
+.experience {
+  background-color: var(--second-bg-color);
+  padding: var(--padding-section) 0;
+  p {
+    font-size: 20px;
+    margin: 20px 0 50px;
+    text-align: center;
+  }
+  .info {
+    gap: 45px;
+    display: flex;
+    flex-direction: column;
+    .card {
+      width: 860px;
+      padding: 25px 40px;
+      border-radius: 7px;
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      margin: 0 auto;
+      gap: 5%;
+      background-color: #1F2937;
+      /* box-shadow: 0px 7px 4px #ddd; */
+      .icon, .date {
+        width: 25%;
+      }
+      .date {
+        text-align: end;
+      }
+      .details {
+        width: 50%;
+        h4 {
+          font-size: 20px;
+          margin-bottom: 24px;
+        }
+        ul li{
+          line-height: 1.5;
+          margin-top: 7px;
+        }
+      }
+    }
+  }
+}
